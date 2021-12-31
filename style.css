@@ -1,0 +1,148 @@
+/* CSS dosyası */
+
+/* Boşlukları sıfırla */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#sayfa{
+    width: 900px;
+    min-height: 600px;
+    border-style: solid;    
+    border-width: 1px;
+    margin: auto;
+}
+/* Banner */
+#banner{
+    width: 898px;
+    height: 100px;
+    border-style: solid;    
+    border-width: 0px; 
+}
+#resim{
+    width: 70px;    
+}
+/* Logo */
+#logo{
+    width: 70px;
+    min-height: 70px;  
+    background-color: white;  
+    position:relative;
+    top:10px;
+    left:10px;    
+    float: left;
+}
+.ikon{
+    width: 45px;
+    height: 45px;
+    float: right;
+    margin: 5px;
+}
+/* Sosyal medya ikonları */
+#sosyal{
+    width: 180px;
+    min-height: 45px;    
+    background-color: white;
+    margin: auto;
+    float: right;
+    position: relative;
+    top: 50px;
+    right: 10px;
+}
+#anamenu{
+    width: 898px;
+    min-height: 50px;    
+    margin: auto;
+    float: right;
+    position: relative;
+    top: 10px;
+    
+}
+#anamenu ul{
+    list-style-type:none
+}
+#anamenu ul li{
+    width: 83px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 3px;
+    border-color: blue;
+    background-color: white;
+    padding: 5px;
+    float: left;
+    
+ 
+    text-align: center;
+    
+
+}
+#anamenu ul a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-size: 12px;
+}
+#anamenu ul a:link{
+    color: blue;
+}
+#anamenu ul a:hover{
+    color: grey;
+    text-decoration: underline;
+}
+#icerik{
+    width: 594px;
+    min-height: 650px;
+    border-style: solid;    
+    background-color: white; 
+    float: left;
+    position: relative;
+    top: 10px;
+}
+#yanmenu{
+    width: 294px;
+    min-height: 650px;
+    border-style: solid;           
+    background-color: yellow; 
+    float: left; 
+    position: relative;
+    top: 10px;
+}
+/* Alt menü */
+#altmenu{
+    width: 898px;
+    min-height: 50px;
+    border-style: solid;           
+    background-color: royalblue; 
+    float: left; 
+    color: black;
+}
+#altmenu a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+#altmenu a:hover{
+    color: grey;
+    font-size: 8px;
+    text-decoration: none;  
+}
+#makalebaslik{
+    font-weight: bold;
+    color: red;
+    font-size: 25px;
+}
+#makale{
+    color: red;
+    position: relative;
+    left: 30px;
+    font-size: 20px;
+}
+#ben{
+    font-size: 50px;
+    font-family: 'The Nautigal', cursive;
+    position: relative;
+    left: 100px;
+    top: 30px;
+}
